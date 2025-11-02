@@ -60,7 +60,7 @@
     <div class="container mx-auto lg:px-24 px-8">
         <div class="carousel w-full">
             <div id="slide1"
-                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] h-[60vh] flex items-center justify-center">
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] h-[60vh] flex items-center justify-center bg-center bg-cover">
                 <div class="absolute top-10 right-10 bg-red-400 px-4 py-2 text-white">
                     <h6>Hot Deal!!</h6>
                 </div>
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div id="slide2"
-                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner2.png)] h-[60vh] flex items-center justify-center">
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner2.png)] h-[60vh] flex items-center justify-center bg-center bg-cover">
                 <div class="text-center space-y-6">
                     <h1 class="text-2xl lg:text-7xl text-center text-white font-bold">Exotic tastes at your <br>
                         doorstep</h1>
@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div id="slide3"
-                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner3.png)] h-[60vh] flex items-center justify-center">
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner3.png)] h-[60vh] flex items-center justify-center bg-center bg-cover">
                 <div class="text-center space-y-6">
                     <h1 class="text-2xl lg:text-7xl text-center text-white font-bold">Exotic tastes at your <br>
                         doorstep</h1>
@@ -105,7 +105,7 @@
                 </div>
             </div>
             <div id="slide4"
-                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner4.png)] h-[60vh] flex items-center justify-center">
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner4.png)] h-[60vh] flex items-center justify-center bg-center bg-cover">
                 <div class="text-center space-y-6">
                     <h1 class="text-2xl lg:text-7xl text-center text-white font-bold">Exotic tastes at your <br>
                         doorstep</h1>
@@ -134,13 +134,14 @@
     <main>
         <!-- deal of the day part start here -->
         <section class="container mx-auto lg:px-24 px-8 my-8">
-            <div class="flex">
-                <div class="w-[50%]">
-                    <h2 class="text-5xl font-extrabold text-[#121212]">Deal of the day</h2>
-                    <p class="text-[16px] font-medium text-[rgba(18, 18, 18, 0.6)] mt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+            <div class="lg:flex">
+                <div class="lg:w-[50%]">
+                    <h2 class="text-3xl lg:text-5xl font-extrabold text-[#121212]">Deal of the day</h2>
+                    <p class="text-[16px] font-medium text-[rgba(18, 18, 18, 0.6)] mt-6">Contrary to popular belief, is
+                        not simply random text. It has roots in a piece of classical Latin
                         literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="w-[50%] flex flex-col justify-end items-end">
+                <div class="lg:w-[50%] flex flex-col justify-end lg:items-end">
                     <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
                         <div class="flex flex-col">
                             <span class="countdown font-mono text-5xl font-extrabold">
@@ -171,6 +172,143 @@
             </div>
         </section>
         <!-- deal of the day part end here -->
+
+        <!-- shop all part start here -->
+        <section class="">
+            <div class="container mx-auto lg:px-24 px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="cart-1 space-y-6 text-center p-12 border border-gray-300 border-1 rounded-md mt-12">
+                        <div class="flex items-center justify-center">
+                            <img class="" src="./images/fruit6.png" alt="this is an apple">
+                        </div>
+                        <h2 class="font-bold text-2xl text-[#121212]">12.90$ - 18.85$</h2>
+                        <div class="divider divider-start"></div>
+                        <p class="font-medium text-[16px] text-[#12121299]">Apples</p>
+                        <div class="rating rating-lg rating-half mx-auto block">
+                            <input type="radio" name="rating-11" class="rating-hidden" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-orange-500"
+                                aria-label="0.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-orange-500"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-orange-500"
+                                aria-label="1.5 star" checked="checked" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-orange-500"
+                                aria-label="2 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="2.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="3.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="4 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="4.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="5 star" />
+                        </div>
+                        <button class="font-bold text-[18px] text-[#F85559] cursor-pointer">Details</button>
+                    </div>
+                    <div class="cart-1 space-y-6 text-center p-12 boder border-gray-300 border-1 rounded-md mt-12">
+                        <div class="flex items-center justify-center">
+                            <img class="" src="./images/fruit7.png" alt="this is an apple">
+                        </div>
+                        <h2 class="font-bold text-2xl text-[#121212]">12.90$ - 18.85$</h2>
+                        <div class="divider divider-start"></div>
+                        <p class="font-medium text-[16px] text-[#12121299]">Orange</p>
+                        <div class="rating rating-lg rating-half mx-auto block">
+                            <input type="radio" name="rating-11" class="rating-hidden" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-orange-500"
+                                aria-label="0.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-orange-500"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-orange-500"
+                                aria-label="1.5 star" checked="checked" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-orange-500"
+                                aria-label="2 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="2.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="3.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="4 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="4.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="5 star" />
+                        </div>
+                        <button class="font-bold text-[18px] text-[#F85559] cursor-pointer">Details</button>
+                    </div>
+                    <div class="cart-1 space-y-6 text-center p-12 boder border-gray-300 border-1 rounded-md mt-12">
+                        <div class="flex items-center justify-center">
+                            <img class="" src="./images/fruit8.png" alt="this is an apple">
+                        </div>
+                        <h2 class="font-bold text-2xl text-[#121212]">12.90$ - 18.85$</h2>
+                        <div class="divider divider-start"></div>
+                        <p class="font-medium text-[16px] text-[#12121299]">Red Dragon</p>
+                        <div class="rating rating-lg rating-half mx-auto block">
+                            <input type="radio" name="rating-11" class="rating-hidden" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-orange-500"
+                                aria-label="0.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-orange-500"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-orange-500"
+                                aria-label="1.5 star" checked="checked" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-orange-500"
+                                aria-label="2 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="2.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="3.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="4 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="4.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="5 star" />
+                        </div>
+                        <button class="font-bold text-[18px] text-[#F85559] cursor-pointer">Details</button>
+                    </div>
+                    <div class="cart-1 space-y-6 text-center p-12 boder border-gray-300 border-1 rounded-md mt-12">
+                        <div class="flex items-center justify-center">
+                            <img class="" src="./images/fruit9.png" alt="this is an apple">
+                        </div>
+                        <h2 class="font-bold text-2xl text-[#121212]">12.90$ - 18.85$</h2>
+                        <div class="divider divider-start"></div>
+                        <p class="font-medium text-[16px] text-[#12121299]">Banana</p>
+                        <div class="rating rating-lg rating-half mx-auto block">
+                            <input type="radio" name="rating-11" class="rating-hidden" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-orange-500"
+                                aria-label="0.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-orange-500"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-orange-500"
+                                aria-label="1.5 star" checked="checked" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-orange-500"
+                                aria-label="2 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="2.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="3.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="4 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-1 bg-[#F85559]"
+                                aria-label="4.5 star" />
+                            <input type="radio" name="rating-11" class="mask mask-star-2 mask-half-2 bg-[#F85559]"
+                                aria-label="5 star" />
+                        </div>
+                        <button class="font-bold text-[18px] text-[#F85559] cursor-pointer">Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shop all part end here -->
     </main>
     <footer></footer>
 </body>
